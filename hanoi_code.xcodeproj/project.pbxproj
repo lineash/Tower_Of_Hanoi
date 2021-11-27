@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D924EADC274FE28700932910 /* hanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D924EADA274FE28700932910 /* hanoi.cpp */; };
+		D93AA73B2752270E00AAAC6D /* hanoi_clearButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D93AA73A2752270E00AAAC6D /* hanoi_clearButton.png */; };
+		D95CC6512748F3BD00A9964B /* hanoi_selectButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC6452748F3BD00A9964B /* hanoi_selectButton.png */; };
+		D95CC6532748F3BD00A9964B /* hanoi_tower.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC6472748F3BD00A9964B /* hanoi_tower.png */; };
+		D95CC6542748F3BD00A9964B /* hanoi_endButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC6482748F3BD00A9964B /* hanoi_endButton.png */; };
+		D95CC6552748F3BD00A9964B /* hanoi_ingButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC6492748F3BD00A9964B /* hanoi_ingButton.png */; };
+		D95CC6582748F3BD00A9964B /* hanoi_startButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC64C2748F3BD00A9964B /* hanoi_startButton.png */; };
+		D95CC6592748F3BD00A9964B /* hanoi_scene1.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC64D2748F3BD00A9964B /* hanoi_scene1.png */; };
+		D95CC65A2748F3BD00A9964B /* hanoi_toButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC64E2748F3BD00A9964B /* hanoi_toButton.png */; };
+		D95CC65B2748F3BD00A9964B /* hanoi_scene2.png in Sources */ = {isa = PBXBuildFile; fileRef = D95CC64F2748F3BD00A9964B /* hanoi_scene2.png */; };
+		D969C652274E81CC00B166B4 /* hanoi_2.png in Sources */ = {isa = PBXBuildFile; fileRef = D969C64E274E81CC00B166B4 /* hanoi_2.png */; };
+		D969C653274E81CC00B166B4 /* hanoi_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D969C64F274E81CC00B166B4 /* hanoi_0.png */; };
+		D969C654274E81CC00B166B4 /* hanoi_1.png in Sources */ = {isa = PBXBuildFile; fileRef = D969C650274E81CC00B166B4 /* hanoi_1.png */; };
+		D969C655274E81CC00B166B4 /* hanoi_3.png in Sources */ = {isa = PBXBuildFile; fileRef = D969C651274E81CC00B166B4 /* hanoi_3.png */; };
 		D9A3C9B027477E1100678CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C9AF27477E1100678CC5 /* main.cpp */; };
+		D9A3C9B927477E2A00678CC5 /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3C9B827477E2A00678CC5 /* libbangtal.dylib */; };
+		D9A3C9BA27477E2A00678CC5 /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D9A3C9B827477E2A00678CC5 /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +36,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D9A3C9BB27477E2A00678CC5 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D9A3C9BA27477E2A00678CC5 /* libbangtal.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D924EADA274FE28700932910 /* hanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hanoi.cpp; sourceTree = "<group>"; };
+		D924EADB274FE28700932910 /* hanoi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hanoi.hpp; sourceTree = "<group>"; };
+		D93AA73A2752270E00AAAC6D /* hanoi_clearButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_clearButton.png; path = ../hanoi/hanoi_clearButton.png; sourceTree = "<group>"; };
+		D95CC62D2748F11200A9964B /* hanoi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_2.png; path = ../hanoi/hanoi_2.png; sourceTree = "<group>"; };
+		D95CC62E2748F11200A9964B /* hanoi_ingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_ingButton.png; path = ../hanoi/hanoi_ingButton.png; sourceTree = "<group>"; };
+		D95CC62F2748F11200A9964B /* hanoi_tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_tower.png; path = ../hanoi/hanoi_tower.png; sourceTree = "<group>"; };
+		D95CC6302748F11200A9964B /* hanoi_scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_scene2.png; path = ../hanoi/hanoi_scene2.png; sourceTree = "<group>"; };
+		D95CC6312748F11200A9964B /* hanoi_scene1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_scene1.png; path = ../hanoi/hanoi_scene1.png; sourceTree = "<group>"; };
+		D95CC6322748F11200A9964B /* hanoi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_3.png; path = ../hanoi/hanoi_3.png; sourceTree = "<group>"; };
+		D95CC6332748F11200A9964B /* hanoi_selectButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_selectButton.png; path = ../hanoi/hanoi_selectButton.png; sourceTree = "<group>"; };
+		D95CC6342748F11200A9964B /* hanoi_toButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_toButton.png; path = ../hanoi/hanoi_toButton.png; sourceTree = "<group>"; };
+		D95CC6352748F11200A9964B /* hanoi_endButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_endButton.png; path = ../hanoi/hanoi_endButton.png; sourceTree = "<group>"; };
+		D95CC6362748F11200A9964B /* hanoi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_1.png; path = ../hanoi/hanoi_1.png; sourceTree = "<group>"; };
+		D95CC6382748F11200A9964B /* hanoi_startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_startButton.png; path = ../hanoi/hanoi_startButton.png; sourceTree = "<group>"; };
+		D95CC6452748F3BD00A9964B /* hanoi_selectButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_selectButton.png; path = ../hanoi/hanoi_selectButton.png; sourceTree = "<group>"; };
+		D95CC6462748F3BD00A9964B /* hanoi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_1.png; path = ../hanoi/hanoi_1.png; sourceTree = "<group>"; };
+		D95CC6472748F3BD00A9964B /* hanoi_tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_tower.png; path = ../hanoi/hanoi_tower.png; sourceTree = "<group>"; };
+		D95CC6482748F3BD00A9964B /* hanoi_endButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_endButton.png; path = ../hanoi/hanoi_endButton.png; sourceTree = "<group>"; };
+		D95CC6492748F3BD00A9964B /* hanoi_ingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_ingButton.png; path = ../hanoi/hanoi_ingButton.png; sourceTree = "<group>"; };
+		D95CC64A2748F3BD00A9964B /* hanoi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_3.png; path = ../hanoi/hanoi_3.png; sourceTree = "<group>"; };
+		D95CC64C2748F3BD00A9964B /* hanoi_startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_startButton.png; path = ../hanoi/hanoi_startButton.png; sourceTree = "<group>"; };
+		D95CC64D2748F3BD00A9964B /* hanoi_scene1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_scene1.png; path = ../hanoi/hanoi_scene1.png; sourceTree = "<group>"; };
+		D95CC64E2748F3BD00A9964B /* hanoi_toButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_toButton.png; path = ../hanoi/hanoi_toButton.png; sourceTree = "<group>"; };
+		D95CC64F2748F3BD00A9964B /* hanoi_scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_scene2.png; path = ../hanoi/hanoi_scene2.png; sourceTree = "<group>"; };
+		D95CC6502748F3BD00A9964B /* hanoi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_2.png; path = ../hanoi/hanoi_2.png; sourceTree = "<group>"; };
+		D969C646274E809300B166B4 /* hanoi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_1.png; path = ../hanoi/hanoi_1.png; sourceTree = "<group>"; };
+		D969C647274E809300B166B4 /* hanoi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_2.png; path = ../hanoi/hanoi_2.png; sourceTree = "<group>"; };
+		D969C648274E809300B166B4 /* hanoi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_3.png; path = ../hanoi/hanoi_3.png; sourceTree = "<group>"; };
+		D969C649274E809300B166B4 /* hanoi_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_0.png; path = ../hanoi/hanoi_0.png; sourceTree = "<group>"; };
+		D969C64E274E81CC00B166B4 /* hanoi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_2.png; path = ../hanoi/hanoi_2.png; sourceTree = "<group>"; };
+		D969C64F274E81CC00B166B4 /* hanoi_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_0.png; path = ../hanoi/hanoi_0.png; sourceTree = "<group>"; };
+		D969C650274E81CC00B166B4 /* hanoi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_1.png; path = ../hanoi/hanoi_1.png; sourceTree = "<group>"; };
+		D969C651274E81CC00B166B4 /* hanoi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanoi_3.png; path = ../hanoi/hanoi_3.png; sourceTree = "<group>"; };
 		D9A3C9AC27477E1100678CC5 /* hanoi_code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hanoi_code; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3C9AF27477E1100678CC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9A3C9B827477E2A00678CC5 /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../Library/Frameworks/Bangtal/lib/Release/libbangtal.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A3C9B927477E2A00678CC5 /* libbangtal.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +103,40 @@
 		D9A3C9A327477E1100678CC5 = {
 			isa = PBXGroup;
 			children = (
+				D93AA73A2752270E00AAAC6D /* hanoi_clearButton.png */,
+				D969C649274E809300B166B4 /* hanoi_0.png */,
+				D95CC6362748F11200A9964B /* hanoi_1.png */,
+				D969C64F274E81CC00B166B4 /* hanoi_0.png */,
+				D969C650274E81CC00B166B4 /* hanoi_1.png */,
+				D95CC62D2748F11200A9964B /* hanoi_2.png */,
+				D95CC6502748F3BD00A9964B /* hanoi_2.png */,
+				D95CC6322748F11200A9964B /* hanoi_3.png */,
+				D969C646274E809300B166B4 /* hanoi_1.png */,
+				D969C647274E809300B166B4 /* hanoi_2.png */,
+				D969C648274E809300B166B4 /* hanoi_3.png */,
+				D969C64E274E81CC00B166B4 /* hanoi_2.png */,
+				D969C651274E81CC00B166B4 /* hanoi_3.png */,
+				D95CC64A2748F3BD00A9964B /* hanoi_3.png */,
+				D95CC6352748F11200A9964B /* hanoi_endButton.png */,
+				D95CC62E2748F11200A9964B /* hanoi_ingButton.png */,
+				D95CC6312748F11200A9964B /* hanoi_scene1.png */,
+				D95CC6302748F11200A9964B /* hanoi_scene2.png */,
+				D95CC6462748F3BD00A9964B /* hanoi_1.png */,
+				D95CC6482748F3BD00A9964B /* hanoi_endButton.png */,
+				D95CC6492748F3BD00A9964B /* hanoi_ingButton.png */,
+				D95CC64D2748F3BD00A9964B /* hanoi_scene1.png */,
+				D95CC64F2748F3BD00A9964B /* hanoi_scene2.png */,
+				D95CC6332748F11200A9964B /* hanoi_selectButton.png */,
+				D95CC6382748F11200A9964B /* hanoi_startButton.png */,
+				D95CC6342748F11200A9964B /* hanoi_toButton.png */,
+				D95CC64C2748F3BD00A9964B /* hanoi_startButton.png */,
+				D95CC64E2748F3BD00A9964B /* hanoi_toButton.png */,
+				D95CC62F2748F11200A9964B /* hanoi_tower.png */,
+				D95CC6452748F3BD00A9964B /* hanoi_selectButton.png */,
+				D95CC6472748F3BD00A9964B /* hanoi_tower.png */,
 				D9A3C9AE27477E1100678CC5 /* hanoi_code */,
 				D9A3C9AD27477E1100678CC5 /* Products */,
+				D9A3C9B727477E2A00678CC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +152,18 @@
 			isa = PBXGroup;
 			children = (
 				D9A3C9AF27477E1100678CC5 /* main.cpp */,
+				D924EADA274FE28700932910 /* hanoi.cpp */,
+				D924EADB274FE28700932910 /* hanoi.hpp */,
 			);
 			path = hanoi_code;
+			sourceTree = "<group>";
+		};
+		D9A3C9B727477E2A00678CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3C9B827477E2A00678CC5 /* libbangtal.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +176,7 @@
 				D9A3C9A827477E1100678CC5 /* Sources */,
 				D9A3C9A927477E1100678CC5 /* Frameworks */,
 				D9A3C9AA27477E1100678CC5 /* CopyFiles */,
+				D9A3C9BB27477E2A00678CC5 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -118,6 +223,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93AA73B2752270E00AAAC6D /* hanoi_clearButton.png in Sources */,
+				D969C652274E81CC00B166B4 /* hanoi_2.png in Sources */,
+				D969C653274E81CC00B166B4 /* hanoi_0.png in Sources */,
+				D969C654274E81CC00B166B4 /* hanoi_1.png in Sources */,
+				D969C655274E81CC00B166B4 /* hanoi_3.png in Sources */,
+				D95CC6512748F3BD00A9964B /* hanoi_selectButton.png in Sources */,
+				D924EADC274FE28700932910 /* hanoi.cpp in Sources */,
+				D95CC6532748F3BD00A9964B /* hanoi_tower.png in Sources */,
+				D95CC6542748F3BD00A9964B /* hanoi_endButton.png in Sources */,
+				D95CC6552748F3BD00A9964B /* hanoi_ingButton.png in Sources */,
+				D95CC6582748F3BD00A9964B /* hanoi_startButton.png in Sources */,
+				D95CC6592748F3BD00A9964B /* hanoi_scene1.png in Sources */,
+				D95CC65A2748F3BD00A9964B /* hanoi_toButton.png in Sources */,
+				D95CC65B2748F3BD00A9964B /* hanoi_scene2.png in Sources */,
 				D9A3C9B027477E1100678CC5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,9 +358,17 @@
 		D9A3C9B427477E1100678CC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CPP_STATIC_DESTRUCTORS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KN85W22C75;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Release",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +376,17 @@
 		D9A3C9B527477E1100678CC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CPP_STATIC_DESTRUCTORS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KN85W22C75;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Release",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
